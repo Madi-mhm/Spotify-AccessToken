@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="onPageLoad()">
+
+    <div class="container">
+        <div id="tokenSection" class="row">
+            <div class="inputDiv">
+                <label for="clienId">Client ID</label>
+                <input type="text" id="clientId">
+            </div>
+
+            <div class="inputDiv">
+                <label for="clienSecret">Secret ID</label>
+                <input type="text" id="clientSecret">
+            </div>
+            <input type="button" id="submitButton" onclick="requestAuthorization()" value="Submit">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

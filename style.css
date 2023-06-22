@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 15.5rem;
+    height: 15rem;
+    padding: 2rem 2rem;
+    margin: 3rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#clientId, #clientSecret{
+    width: 15rem;
+    height: 2rem;
+
+}
+
+#submitButton{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 2rem;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
